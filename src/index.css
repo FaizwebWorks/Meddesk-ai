@@ -2,13 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Gilroy";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
 }
-html , body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.btn {
+  border-radius: 50%;
+  background: linear-gradient(145deg, #eeeeee, #d2d2d2);
+  box-shadow: 5px 5px 81px #bfbfbf, -5px -5px 81px #c1c1c1;
 }

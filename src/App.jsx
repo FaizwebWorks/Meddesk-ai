@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <Router>
-        <div className="main min-h-screen w-full">
+        <div className="main min-h-screen w-full bg-[#427ba3] text-white">
           <Navbar />
           <Buttons />
           <Routes>
